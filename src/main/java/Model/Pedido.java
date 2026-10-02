@@ -1,4 +1,4 @@
-package Model;
+package Model; 
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -11,7 +11,7 @@ public class Pedido {
     private double total;
     private LocalDateTime fechaHora;
     
-    // --- NUEVO ATRIBUTO (TAREA DE RAMIRO) ---
+    // --- NUEVO ATRIBUTO ---
     private String estado; 
 
     public Pedido(int idPedido, int numeroMesa, String cliente, String detalleConsumo, double total) {
@@ -22,7 +22,7 @@ public class Pedido {
         this.total = total;
         this.fechaHora = LocalDateTime.now();
         
-        // --- ESTADO POR DEFECTO ---
+       
         this.estado = "En preparación"; 
     }
 

@@ -14,7 +14,7 @@ public class FrmPedido extends JFrame {
     public JTextField txtBuscarId = new JTextField(6);
     public JButton btnBuscar = new JButton("Buscar");
 
-    // Componentes de Actualizar (YESENIA)
+    // Componentes de Actualizar 
     public JTextField txtIdActualizar = new JTextField(6);
     public JComboBox<String> cmbNuevoEstado = new JComboBox<>(new String[]{"En preparación", "Entregado", "Cancelado"});
     public JButton btnActualizarEstado = new JButton("Actualizar");
