@@ -23,7 +23,7 @@ public class Pedido {
         this.fechaHora = LocalDateTime.now();
         
        
-        this.estado = "EN PREPARACION"; 
+        this.estado = "EN PREPARACION."; 
     }
 
     public int getIdPedido() {
