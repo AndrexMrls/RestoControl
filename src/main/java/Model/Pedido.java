@@ -23,7 +23,7 @@ public class Pedido {
         this.fechaHora = LocalDateTime.now();
         
        
-        this.estado = "Pendiente"; 
+        this.estado = "Pendiente."; 
     }
 
     public int getIdPedido() {
